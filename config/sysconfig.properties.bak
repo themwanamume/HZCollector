@@ -1,0 +1,17 @@
+# 采集端口
+port=8806
+
+# 线程数量
+threadNum=10
+
+# 升级数据包长度
+packagelen=1024
+
+# 4-20mA量程下限
+Amin=4
+
+# 4-20mA量程上限
+Amax=20
+
+#推送地址
+subcribeUrl=http://127.0.0.1:28080/nademo/iocm/devNotify/updateDeviceDatas
